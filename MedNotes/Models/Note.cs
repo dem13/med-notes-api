@@ -8,6 +8,6 @@ namespace MedNotes.Models
         public int Id { get; set; }
         public string Body { get; set; }
 
-        [DataType(DataType.DateTime)] public DateTime CreatedAt { get; set; } = new DateTime();
+        [DataType(DataType.Date)] public DateTime CreatedAt { get; set; } = new DateTime();
     }
 }
